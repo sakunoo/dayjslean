@@ -1,5 +1,5 @@
 {
-  "name": "dayjs",
+  "name": "dayjs-lean",
   "version": "0.0.0-development",
   "description": "2KB immutable date time library alternative to Moment.js with the same modern API ",
   "main": "dayjs.min.js",
@@ -45,10 +45,9 @@
   ],
   "author": "iamkun",
   "license": "MIT",
-  "homepage": "https://day.js.org",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iamkun/dayjs.git"
+    "url": "https://github.com/sakunoo/dayjslean"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.44",
@@ -80,5 +79,8 @@
     "rollup-plugin-terser": "^7.0.2",
     "size-limit": "^0.18.0",
     "typescript": "^2.8.3"
+  },
+  "dependencies": {
+    "time-shortcuts": "^1.0.0"
   }
 }
